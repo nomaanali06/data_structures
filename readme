@@ -1,0 +1,21 @@
+AIR line reservation system is implemented in given cpp file. 
+first of all data form file is read and store in node type of 
+array in order to store vertices repeatation is not allowed one
+source made one vertix , after forming vertices using adjancy list
+destination,fares,time,date,filght is stored in next of source ,
+mean every destination after comparing placed in next of source .
+all data from file is read in char array so data is stored in strings format ,
+but when data is required in integer format i use function which convert strings
+into integer and do further operations with help of integer like in order to get
+minimum fares data comparison was needed , for minimum fares and nearest date of flight
+file handling is used data is write in file first for all possible outcomes  by
+comparing to certain scenerios ,in node array every has its destinations every work 
+and operation is based on this tactic . first for printing all values of graph display
+function is implemented which print every data e.g source and destination , 
+then for checking flights possibiliity there is function which check possibility 
+of flight of certain air line and same for desired date and all operations , many 
+logics are implemented using file handling , breath first search is used in order
+to check source and destination .user is required to give source and destination 
+then sending values to ceratin function program check values on bredth first search 
+algorithm .if values is not found for any function then program display possible outcomes 
+of program by default , 
